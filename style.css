@@ -1,0 +1,135 @@
+/* Similar structure to your lab external stylesheet */
+body {
+    font-family: Calibri, Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+/* Header */
+header {
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.2em;
+}
+.tagline {
+    margin: 5px 0;
+    font-style: italic;
+}
+.contact a {
+    color: #ffdd57;
+    text-decoration: none;
+}
+.contact a:hover {
+    text-decoration: underline;}
+
+/* Navigation – like newspaper.html */
+nav {
+    background-color: #333;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+nav ul li {
+    margin: 5px 10px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 4px;
+}
+/* Main layout */
+#main-content {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 0 20px 30px 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+section {
+    margin-bottom: 20px;
+}
+h2 {
+    color: #1a1a1a;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 5px;
+}
+h3 {
+    color: #333;
+}
+/* Tables – similar to timetable & newspaper */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px 10px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+/* Personal details table */
+.personal-table th {
+    width: 30%;
+}
+/* Lists */
+ul {
+    margin-left: 20px;
+}
+/* Declaration */
+.declaration {
+    margin-top: 15px;
+    font-size: 0.95em;
+}
+/* Footer */
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+}
+/* Active link highlight */
+nav ul li a.active {
+    background-color: #ffdd57;
+    color: #000;
+    border-radius: 4px;
+}
+/* Click animation */
+nav ul li a.active-click {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+/* PDF Download Button */
+.download-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: black;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+.download-btn:hover {
+    background-color: #ffe88a;
+    transform: scale(1.05);
+}
